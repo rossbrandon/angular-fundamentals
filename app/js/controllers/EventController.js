@@ -2,9 +2,17 @@
 
 eventsApp.controller('EventController',
     function EventController($scope) {
+
+        $scope.snippet = '<span style="color:red">ng-bind-html</span>';
+        $scope.boolValue = false;
+        $scope.controllerStyle = {color: 'red'};
+        $scope.controllerClass = "blackText";
+        $scope.buttonDisabled = true;
+        $scope.sortOrder = 'name';
+
         $scope.event = {
             name: 'Angular Boot Camp',
-            date: '6/4/2013',
+            date: 1359781015626,
             time: '10:10 pm',
             location: {
                 address: 'Google Headquarters',
@@ -16,15 +24,15 @@ eventsApp.controller('EventController',
                 {
                     name: 'Directives Masterclass',
                     creatorName: 'Bob Smith',
-                    duration: '1 hr',
+                    duration: 1,
                     level: 'Advanced',
-                    abstract: 'In this sesison you will learn the ins and outs of directives!',
+                    abstract: 'In this session you will learn the ins and outs of directives!',
                     upVoteCount: 0
                 },
                 {
                     name: 'Scopes for fun and profit',
                     creatorName: 'John Doe',
-                    duration: '30 mins',
+                    duration: 2,
                     level: 'Introductory',
                     abstract: 'This session will take a closer look at scopes.  Learn what they do, how they do it, and how to get them to do it for you.',
                     upVoteCount: 0
@@ -32,7 +40,7 @@ eventsApp.controller('EventController',
                 {
                     name: 'Well Behaved Controllers',
                     creatorName: 'Jane Doe',
-                    duration: '2 hours',
+                    duration: 4,
                     level: 'Intermediate',
                     abstract: 'Controllers are the beginning of everything Angular does.  Learn how to craft controllers that will win the respect of your friends and neighbors.',
                     upVoteCount: 0
