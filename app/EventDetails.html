@@ -2,6 +2,8 @@
 <html lang="en" ng-app="eventsApp">
 <head>
     <meta charset="utf-8">
+    <link type="image/x-icon" rel="icon" href="img/favicon.ico">
+    <link type="image/x-icon" rel="shortcut icon" href="img/favicon.ico">
     <title>Event Registration</title>
     <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css"/>
     <link rel="stylesheet" href="css/app.css"/>
@@ -18,22 +20,12 @@
 
     <div ng-controller="EventController">
         <img ng-src="{{event.imageUrl}}" alt="{{event.name}}"/>
+        <button type="button" class="btn btn-primary" ng-click="scrollToSession()">Scroll</button>
         <div class="row">
             <div class="span11">
-                <h2 ng-class="controllerClass" ng-bind-template="{{event.name | uppercase}} - {{event.date}}"></h2>
+                <h2 ng-class="controllerClass" ng-bind-template="{{event.name | uppercase}} - {{event.date | date: 'mediumDate' }}"></h2>
             </div>
         </div>
-
-        <button class="btn" ng-disabled="buttonDisabled">Disabled</button>
-
-        <div ng-non-bindable>{{1+2}}</div>
-
-        <div ng-bind-html-unsafe="snippet">some title</div>
-        <div ng-bind-html="snippet">some title</div>
-
-        <h2 ng-show="boolValue">Show This</h2>
-        <h2 ng-hide="boolValue">Hide This</h2>
-
         <div class="row">
             <div class="span3">
                 <div><strong>Date: </strong>{{event.date | date: 'mediumDate'}}</div>
@@ -48,9 +40,6 @@
                 </address>
             </div>
         </div>
-
-        <div>{{ 3 | number:2 }}</div>
-        <div>{{ {a:3, b:'hi', c:{aa:35} } | json }}</div>
 
         <hr />
 
@@ -70,7 +59,7 @@
         </select>
 
         <ul class="thumbnails">
-            <li ng-repeat="session in event.sessions | orderBy:sortOrder | limitTo:2 | filter:query">
+            <li ng-repeat="session in event.sessions | orderBy:sortOrder | limitTo:5 | filter:query" id="session{{session.id}}">
                 <div class="row session">
                     <div class="span0 well votingWidget">
                         <div class="votingButton" ng-click="upVoteSession(session)">
@@ -102,8 +91,10 @@
 <script src="lib/bootstrap/js/bootstrap.js"></script>
 <script src="lib/angular/angular.js"></script>
 <script src="lib/angular/angular-sanitize.js"></script>
+<script src="lib/angular/angular-resource.js"></script>
 <script src="js/app.js"></script>
 <script src="js/controllers/EventController.js"></script>
+<script src="js/services/EventData.js"></script>
 <script src="js/filters.js"></script>
 </body>
 </html>

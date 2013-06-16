@@ -1,9 +1,8 @@
 'use strict';
 
-/* Filters */
 eventsApp.filter('durations', function() {
     return function(duration) {
-        switch(duration) {
+        switch (duration) {
             case 1:
                 return "Half Hour";
             case 2:
@@ -14,4 +13,4 @@ eventsApp.filter('durations', function() {
                 return "Full Day";
         }
     }
-})
+});

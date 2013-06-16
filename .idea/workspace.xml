@@ -1,26 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3fb8b31-9543-4528-b3b6-60c9255a14fb" name="Default" comment="Updated WebStorm gitignore patterns">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/controllers/EditEventController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/NewEvent.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
+    <list default="true" id="d3fb8b31-9543-4528-b3b6-60c9255a14fb" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/data/event/1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/data/event/2.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/data/event/3.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/data/event/4.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/CacheSample.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/controllers/CacheSampleController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/CompileSample.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/controllers/CompileSampleController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/CookieStoreSample.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/controllers/CookieStoreSampleController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/EditProfile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/controllers/EditProfileController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/services/EventData.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/services/ExceptionHandler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/FilterSample.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/controllers/FilterSampleController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/services/GravatarUrlBuilder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/LocaleSample.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/controllers/LocaleSampleController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/TimeoutSample.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/controllers/TimeoutSampleController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers/EditEventController.js" afterPath="$PROJECT_DIR$/app/js/controllers/EditEventController.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers/EventController.js" afterPath="$PROJECT_DIR$/app/js/controllers/EventController.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/EventDetails.html" afterPath="$PROJECT_DIR$/app/EventDetails.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/app.css" afterPath="$PROJECT_DIR$/app/css/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/NewEvent.html" afterPath="$PROJECT_DIR$/app/NewEvent.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/app.js" afterPath="$PROJECT_DIR$/app/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/filters.js" afterPath="$PROJECT_DIR$/app/js/filters.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/web-server.js" afterPath="$PROJECT_DIR$/scripts/web-server.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="angular-fundamentals.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.html" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1370400451345" ignored="false" />
     <file path="/e2e-test.bat" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1370393485551" ignored="false" />
-    <file path="/app.js" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1370400802589" ignored="false" />
+    <file path="/app.js" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1371366832127" ignored="false" />
     <file path="/a.js" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1370400958362" ignored="false" />
     <file path="/eventDetails.html" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1370404140523" ignored="false" />
-    <file path="/EventController.js" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1370495147832" ignored="false" />
-    <file path="/EventDetails.html" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1370497393105" ignored="false" />
+    <file path="/EventController.js" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1371363209028" ignored="false" />
+    <file path="/EventDetails.html" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1371363163024" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/webstorm.jar!/standardSchemas/html5/xhtml5.xsd" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1370487270043" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/relaxng.rng" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1370487270043" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/webstorm.jar!/standardSchemas/xhtml1-transitional.xsd" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1370487270043" ignored="false" />
@@ -36,13 +57,27 @@
     <file path="$APPLICATION_HOME_DIR$/lib/webstorm.jar!/standardSchemas/xhtml1-frameset.xsd" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1370487270043" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/webstorm.jar!/standardSchemas/XMLSchema-instance.xsd" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1370487270043" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/webstorm.jar!/standardSchemas/catalog.xsd" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1370487270043" ignored="false" />
-    <file path="/Dummy.txt" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1370491072889" ignored="false" />
+    <file path="/Dummy.txt" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1371353888918" ignored="false" />
     <file path="/.gitignore" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1370489055230" ignored="false" />
     <file path="/.travis.yml" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1370489304781" ignored="false" />
-    <file path="/app.css" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1370492685330" ignored="false" />
+    <file path="/app.css" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1371355050127" ignored="false" />
     <file path="/filters.js" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1370495920008" ignored="false" />
     <file path="/NewEvent.html" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1370499089725" ignored="false" />
-    <file path="/EditEventController.js" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1370498914929" ignored="false" />
+    <file path="/EditEventController.js" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1371359182593" ignored="false" />
+    <file path="/EventData.js" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1371362133452" ignored="false" />
+    <file path="/EditProfileController.js" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1371355268870" ignored="false" />
+    <file path="/EditProfile.html" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1371355301209" ignored="false" />
+    <file path="/GravatarUrlBuilder.js" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1371355325436" ignored="false" />
+    <file path="/1.json" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1371363812806" ignored="false" />
+    <file path="/CacheSample.html" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1371364644238" ignored="false" />
+    <file path="/CacheSampleController.js" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1371364482355" ignored="false" />
+    <file path="/CompileSampleController.js" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1371365533714" ignored="false" />
+    <file path="/CompileSample.html" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1371364999333" ignored="false" />
+    <file path="/TimeoutSample.html" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1371366027973" ignored="false" />
+    <file path="/FilterSample.html" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1371366036486" ignored="false" />
+    <file path="/FilterSampleController.js" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1371366719337" ignored="false" />
+    <file path="/LocaleSample.html" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1371366877578" ignored="false" />
+    <file path="/CookieStoreSample.html" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1371366895542" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,57 +97,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/css/app.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="10" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="57" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
+            <state line="3" column="84" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventController.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/controllers/EventController.js">
+      <file leaf-file-name="CookieStoreSample.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/CookieStoreSample.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="31" selection-start="1213" selection-end="1213" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1370495782652" expanded="true" signature="134:143" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EditEventController.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/controllers/EditEventController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="38" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
+            <state line="30" column="7" selection-start="1097" selection-end="1097" vertical-scroll-proportion="0.5964912">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventDetails.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/EventDetails.html">
+      <file leaf-file-name="CookieStoreSampleController.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/controllers/CookieStoreSampleController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="25" selection-start="619" selection-end="619" vertical-scroll-proportion="19.23077">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewEvent.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/NewEvent.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="22" selection-start="2199" selection-end="2199" vertical-scroll-proportion="1.1315372">
+            <state line="18" column="0" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -137,28 +143,28 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/scripts/web-server.js" />
-        <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/js/directives.js" />
-        <option value="$PROJECT_DIR$/app/js/services.js" />
-        <option value="$PROJECT_DIR$/app/eventDetails.html" />
-        <option value="$PROJECT_DIR$/app/lib/bootstrap/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
-        <option value="$PROJECT_DIR$/app/js/app.js" />
-        <option value="$PROJECT_DIR$/app/css/app.css" />
-        <option value="$PROJECT_DIR$/app/js/controllers/EventController.js" />
-        <option value="$PROJECT_DIR$/app/js/filters.js" />
-        <option value="$PROJECT_DIR$/app/EventDetails.html" />
         <option value="$PROJECT_DIR$/app/js/controllers/EditEventController.js" />
-        <option value="$PROJECT_DIR$/app/NewEvent.html" />
+        <option value="$PROJECT_DIR$/scripts/web-server.js" />
+        <option value="$PROJECT_DIR$/app/js/services/EventData.js" />
+        <option value="$PROJECT_DIR$/app/EventDetails.html" />
+        <option value="$PROJECT_DIR$/app/js/controllers/EventController.js" />
+        <option value="$PROJECT_DIR$/app/data/event/1.json" />
+        <option value="$PROJECT_DIR$/app/js/controllers/CacheSampleController.js" />
+        <option value="$PROJECT_DIR$/app/CacheSample.html" />
+        <option value="$PROJECT_DIR$/app/CompileSample.html" />
+        <option value="$PROJECT_DIR$/app/js/controllers/CompileSampleController.js" />
+        <option value="$PROJECT_DIR$/app/TimeoutSample.html" />
+        <option value="$PROJECT_DIR$/app/FilterSample.html" />
+        <option value="$PROJECT_DIR$/app/js/controllers/FilterSampleController.js" />
+        <option value="$PROJECT_DIR$/app/js/app.js" />
+        <option value="$PROJECT_DIR$/app/LocaleSample.html" />
+        <option value="$PROJECT_DIR$/app/CookieStoreSample.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="width" value="1124" />
-    <option name="height" value="1041" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -186,7 +192,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -215,7 +220,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -230,10 +235,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -252,6 +253,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-fundamentals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-fundamentals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -277,26 +300,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-fundamentals" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-fundamentals" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -305,18 +311,19 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\app\workspaces\angular\angular-fundamentals\app\js" />
+      <recent name="C:\app\workspaces\angular\angular-fundamentals\app" />
+      <recent name="C:\app\workspaces\angular\angular-fundamentals\app\js\controllers" />
+      <recent name="C:\app\workspaces\angular\angular-fundamentals\app\js\services" />
       <recent name="C:\app\workspaces\angular\angular-fundamentals\app\img" />
-      <recent name="C:\app\workspaces\angular\angular-fundamentals\app\lib\jquery" />
-      <recent name="C:\app\workspaces\angular\angular-fundamentals\app\lib" />
-      <recent name="C:\app\workspaces\angular\angular-fundamentals\app\lib\bootstrap" />
-      <recent name="C:\app\workspaces\angular\angular-fundamentals" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\app\workspaces\angular\angular-fundamentals\app\img" />
       <recent name="C:\app\workspaces\angular\angular-fundamentals\app\css" />
     </key>
   </component>
@@ -370,7 +377,11 @@
       <created>1370489090528</created>
       <updated>1370489090528</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Controllers and Markup">
+      <created>1370499352962</created>
+      <updated>1370499352962</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -394,10 +405,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1124" height="1041" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1124" height="1040" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23348017" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23348017" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290398" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20848376" sideWeight="0.76651984" order="0" side_tool="false" content_ui="combo" />
@@ -458,7 +469,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated WebStorm gitignore patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="Controllers and Markup" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -474,103 +485,129 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Ignore *.idea* project files." />
     <MESSAGE value="Updated WebStorm gitignore patterns" />
+    <MESSAGE value="Controllers and Markup" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/js/controllers/CacheSampleController.js</url>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scripts/web-server.js">
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/CacheSampleController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="44" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/directives.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="30" selection-end="30" vertical-scroll-proportion="0.085" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/jquery/jquery-1.10.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/bootstrap/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2286" column="31" selection-start="41449" selection-end="41449" vertical-scroll-proportion="0.40828404" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitattributes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="70" selection-end="70" vertical-scroll-proportion="0.10828026" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="10" selection-start="37" selection-end="37" vertical-scroll-proportion="0.038724374" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.11791907" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="57" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
+        <state line="3" column="50" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/app.css">
+    <entry file="file://$PROJECT_DIR$/app/CacheSample.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="10" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers/EventController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="31" selection-start="1213" selection-end="1213" vertical-scroll-proportion="0.0">
+        <state line="12" column="2" selection-start="347" selection-end="347" vertical-scroll-proportion="-7.8461537">
           <folding>
-            <marker date="1370495782652" expanded="true" signature="134:143" placeholder="..." />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/filters.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="34" selection-start="349" selection-end="349" vertical-scroll-proportion="0.2505669">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/EventDetails.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="25" selection-start="619" selection-end="619" vertical-scroll-proportion="19.23077">
+        <state line="8" column="47" selection-start="267" selection-end="378" vertical-scroll-proportion="0.16152018">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers/EditEventController.js">
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/LocaleSampleController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="38" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
+        <state line="5" column="0" selection-start="147" selection-end="147" vertical-scroll-proportion="0.09648127">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/NewEvent.html">
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/CompileSampleController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="22" selection-start="2199" selection-end="2199" vertical-scroll-proportion="1.1315372">
+        <state line="7" column="0" selection-start="268" selection-end="268" vertical-scroll-proportion="0.13507378">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/services/ExceptionHandler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/CompileSample.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="616" selection-end="1018" vertical-scroll-proportion="-13.730769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/TimeoutSample.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="5" selection-start="125" selection-end="236" vertical-scroll-proportion="-3.2692308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/TimeoutSampleController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/filters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FilterSample.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="524" selection-end="524" vertical-scroll-proportion="-11.115385">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/FilterSampleController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="51" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="84" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/LocaleSample.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="55" selection-start="675" selection-end="732" vertical-scroll-proportion="0.41754386">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/CookieStoreSampleController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/CookieStoreSample.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="7" selection-start="1097" selection-end="1097" vertical-scroll-proportion="0.5964912">
           <folding />
         </state>
       </provider>
