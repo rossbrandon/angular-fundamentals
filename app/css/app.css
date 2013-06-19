@@ -37,3 +37,12 @@ select, textarea {
 .blackText {
     color: black;
 }
+
+.center {
+    margin: 0 auto;
+}
+
+a {
+    cursor: hand;
+    cursor: pointer;
+}
