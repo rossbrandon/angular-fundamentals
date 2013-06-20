@@ -20,6 +20,11 @@ select, textarea {
     user-select: none;
 }
 
+.sessionThumbnail {
+    height:100%;
+    overflow: hidden;
+}
+
 .votingWidget {
     height: 64px;
     padding: 7px;
@@ -42,7 +47,55 @@ select, textarea {
     margin: 0 auto;
 }
 
-a {
+a, .clickable {
     cursor: hand;
     cursor: pointer;
+}
+
+.calendar{
+    border: 1px solid #555;
+    width: 238px;
+}
+
+.calendar .row {
+    margin-left: 0px;
+}
+
+.calendar .row div{
+    float:left;
+    padding:2px;
+    width:30px;
+    text-align:center;
+}
+
+.calendar-nav-left {
+    float:left;
+    width: 20px;
+    padding:2px;
+}
+
+.calendar-nav-right {
+    float:left;
+    width: 20px;
+    padding:2px;
+    text-align:right;
+}
+
+.calendar .row .calendar-hdr {
+    padding:2px;
+    float:left;
+    width: 166px;
+    text-align:center;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.date-picker {
+    position: absolute;
+    top: -7px;
+    left: 209px;
+    background-color: #272b30;
+    color: white;
 }

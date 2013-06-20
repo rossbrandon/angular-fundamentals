@@ -1,7 +1,7 @@
 'use strict';
 
 eventsApp.controller('EventController',
-    function EventController($scope, eventData, $anchorScroll, $route, $routeParams) {
+    function EventController($scope, eventData, $anchorScroll, $route) {
         $scope.sortOrder = 'name';
         //$scope.event = eventData.getEvent($routeParams.eventId);
         $scope.event = $route.current.locals.event;

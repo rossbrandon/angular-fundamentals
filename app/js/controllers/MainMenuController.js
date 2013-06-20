@@ -19,5 +19,8 @@ eventsApp.controller('MainMenuController',
             $location.replace();
             $location.url('/editProfile');
         };
+        $scope.goHome = function() {
+            $location.url('/events');
+        }
     }
 );
