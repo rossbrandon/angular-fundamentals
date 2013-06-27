@@ -1,14 +1,13 @@
 'use strict';
 
-eventsApp.directive('upvote', function() {
+eventsApp.directive('upvote', function () {
     return {
-        restrict: 'E',
-        replace: true,
-        templateUrl: 'templates/directives/upvote.html',
+        restrict: "E",
+        templateUrl: "/partials/directives/upvote.html",
         scope: {
-            upvote: "&",
-            downvote: "&",
-            count: "="
+            count: '@',
+            upvote: '&',
+            downvote: '&'
         }
-    };
+    }
 });

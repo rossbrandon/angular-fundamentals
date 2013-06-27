@@ -1,48 +1,17 @@
 'use strict';
 
-// Declare app level module which depends on filters, and services
-var eventsApp = angular.module('eventsApp', ['ngResource'])
-    .config(function($routeProvider, $locationProvider) {
-        $routeProvider.when('/newEvent',
-            {
-                templateUrl:'templates/NewEvent.html',
-                controller: 'EditEventController'
-            }
-        );
-        $routeProvider.when('/editProfile',
-            {
-                templateUrl:'templates/EditProfile.html',
-                controller: 'EditProfileController'
-            }
-        );
-        $routeProvider.when('/events',
-            {
-                templateUrl:'templates/EventList.html',
-                controller: 'EventListController'
-            }
-        );
-        $routeProvider.when('/event/:eventId',
-            {
-                templateUrl:'templates/EventDetails.html',
-                controller: 'EventController',
-                resolve: {
-                    event: function($q, $route, eventData) {
-                        var deferred = $q.defer();
-                        eventData.getEvent($route.current.pathParams.eventId)
-                            .then(function(event) { deferred.resolve(event); });
-                        return deferred.promise;
-                    }
-                }
-            }
-        );
-        $routeProvider.when('/sampleDirective',
-            {
-                templateUrl: 'templates/SampleDirective.html',
-                controller: 'SampleDirectiveController'
-            }
-        );
-        $routeProvider.otherwise({redirectTo:'/events'});
-
-        $locationProvider.html5Mode(true);
-    })
-;
+var eventsApp = angular.module('eventsApp', ['ngResource']);
+eventsApp.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
+    $routeProvider.when('/events', {templateUrl: '/partials/eventList.html', controller: 'EventListController'});
+    $routeProvider.when('/events/:eventId/sessions/edit/:sessionId', {templateUrl: '/partials/editSession.html', controller: 'EditSessionController'});
+    $routeProvider.when('/events/:eventId/sessions/new', {templateUrl: '/partials/editSession.html', controller: 'EditSessionController'});
+    $routeProvider.when('/event/:eventId', {templateUrl: '/partials/event.html', controller: 'EventController'});
+    $routeProvider.when('/events/new', {templateUrl: '/partials/editEvent.html', controller: 'EditEventController'});
+    $routeProvider.when('/events/edit/:eventId', {templateUrl: '/partials/editEvent.html', controller: 'EditEventController'});
+    $routeProvider.when('/register', {templateUrl: '/partials/editProfile.html', controller: 'EditProfileController'});
+    $routeProvider.when('/editProfile', {templateUrl: '/partials/editProfile.html', controller: 'EditProfileController'});
+    $routeProvider.when('/viewProfile/:userName', {templateUrl: '/partials/viewProfile.html', controller: 'ViewProfileController'});
+    $routeProvider.when('/login', {templateUrl: '/partials/login.html', controller: 'LoginController'});
+    $routeProvider.otherwise({redirectTo: '/events'});
+    $locationProvider.html5Mode(true);
+  }]);

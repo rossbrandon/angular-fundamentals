@@ -1,26 +1,18 @@
 'use strict';
 
 eventsApp.controller('MainMenuController',
-    function MainMenuController($scope, $location) {
-        console.log('absUrl: ', $location.absUrl());
-        console.log('protocol: ', $location.protocol());
-        console.log('port: ', $location.port());
-        console.log('host: ', $location.host());
-        console.log('path: ', $location.path());
-        console.log('search ', $location.search());
-        console.log('hash: ', $location.hash());
-        console.log('url: ', $location.url());
+    function MainMenuController($scope, authService) {
+        $scope.user = {};
+        $scope.$watch(authService.getCurrentUserName, function () {
+            $scope.user = authService.getCurrentUser();
+        });
 
-        $scope.createEvent = function() {
-            $location.replace();
-            $location.url('/newEvent');
+        $scope.isAuthenticated = function () {
+            return authService.isAuthenticated();
         };
-        $scope.editProfile = function() {
-            $location.replace();
-            $location.url('/editProfile');
+
+        $scope.logout = function () {
+            authService.setCurrentUser({});
         };
-        $scope.goHome = function() {
-            $location.url('/events');
-        }
     }
 );
