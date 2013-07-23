@@ -1,74 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3fb8b31-9543-4528-b3b6-60c9255a14fb" name="Default" comment="Creating Custom Directives">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/controllers/EditSessionController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/EventListControllerSpec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/controllers/LoginController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/controllers/ViewProfileController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/services/authentication.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/data/user/bob.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/calendarHelperSpec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/partials/directives/datePicker.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/durationsSpec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/partials/editEvent.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/partials/editSession.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/directives/enterTarget.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/partials/event.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/partials/directives/eventDetails.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/directives/eventDetails.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/partials/eventList.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/services/eventResource.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/partials/directives/eventThumbnail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/data/user/jmcooper.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/data/user/john-doe.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/partials/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/directives/ngBlur.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/directives/ngFocus.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/partials/directives/sessionThumbnail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/directives/sessionThumbnail.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/lib/underscore/underscore-1.4.4.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/services/userData.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/userDataSpec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/services/userResource.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/userResourceSpec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/partials/viewProfile.html" />
-      <change type="DELETED" beforePath="C:\app\workspaces\angular\angular-fundamentals\app\js\services.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\app\workspaces\angular\angular-fundamentals\app\templates\EventDetails.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\app\workspaces\angular\angular-fundamentals\app\templates\EventList.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\app\workspaces\angular\angular-fundamentals\app\templates\NewEvent.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\app\workspaces\angular\angular-fundamentals\app\templates\SampleDirective.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\app\workspaces\angular\angular-fundamentals\app\templates\directives\datepicker.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\app\workspaces\angular\angular-fundamentals\app\templates\directives\eventThumbnail.html" afterPath="" />
-      <change type="MOVED" beforePath="C:\app\workspaces\angular\angular-fundamentals\app\js\directives\datepicker.js" afterPath="$PROJECT_DIR$/app/js/directives/datePicker.js" />
-      <change type="MOVED" beforePath="C:\app\workspaces\angular\angular-fundamentals\app\js\directives\upVote.js" afterPath="$PROJECT_DIR$/app/js/directives/upvote.js" />
-      <change type="MOVED" beforePath="C:\app\workspaces\angular\angular-fundamentals\app\js\services\EventData.js" afterPath="$PROJECT_DIR$/app/js/services/eventData.js" />
-      <change type="MOVED" beforePath="C:\app\workspaces\angular\angular-fundamentals\app\js\services\GravatarUrlBuilder.js" afterPath="$PROJECT_DIR$/app/js/services/gravatarUrlBuilder.js" />
-      <change type="MOVED" beforePath="C:\app\workspaces\angular\angular-fundamentals\app\templates\EditProfile.html" afterPath="$PROJECT_DIR$/app/partials/editProfile.html" />
-      <change type="MOVED" beforePath="C:\app\workspaces\angular\angular-fundamentals\app\templates\directives\upvote.html" afterPath="$PROJECT_DIR$/app/partials/directives/upvote.html" />
-      <change type="MOVED" beforePath="C:\app\workspaces\angular\angular-fundamentals\test\unit\controllersSpec.js" afterPath="$PROJECT_DIR$/test/example/controllersSpec.js" />
-      <change type="MOVED" beforePath="C:\app\workspaces\angular\angular-fundamentals\test\unit\directivesSpec.js" afterPath="$PROJECT_DIR$/test/example/directivesSpec.js" />
-      <change type="MOVED" beforePath="C:\app\workspaces\angular\angular-fundamentals\test\unit\filtersSpec.js" afterPath="$PROJECT_DIR$/test/example/filtersSpec.js" />
-      <change type="MOVED" beforePath="C:\app\workspaces\angular\angular-fundamentals\test\unit\servicesSpec.js" afterPath="$PROJECT_DIR$/test/example/servicesSpec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/data/event/1.json" afterPath="$PROJECT_DIR$/app/data/event/1.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/data/event/2.json" afterPath="$PROJECT_DIR$/app/data/event/2.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/data/event/3.json" afterPath="$PROJECT_DIR$/app/data/event/3.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers/EditEventController.js" afterPath="$PROJECT_DIR$/app/js/controllers/EditEventController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers/EditProfileController.js" afterPath="$PROJECT_DIR$/app/js/controllers/EditProfileController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers/EventController.js" afterPath="$PROJECT_DIR$/app/js/controllers/EventController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers/EventListController.js" afterPath="$PROJECT_DIR$/app/js/controllers/EventListController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers/MainMenuController.js" afterPath="$PROJECT_DIR$/app/js/controllers/MainMenuController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/app.js" afterPath="$PROJECT_DIR$/app/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/services/calendarHelper.js" afterPath="$PROJECT_DIR$/app/js/services/calendarHelper.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/directives/eventThumbnail.js" afterPath="$PROJECT_DIR$/app/js/directives/eventThumbnail.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/filters.js" afterPath="$PROJECT_DIR$/app/js/filters.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/directives/focus.js" afterPath="$PROJECT_DIR$/app/js/directives/focus.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/directives/gravatar.js" afterPath="$PROJECT_DIR$/app/js/directives/gravatar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+    <list default="true" id="d3fb8b31-9543-4528-b3b6-60c9255a14fb" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/eventThumbnailSpec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/lib/jquery.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/karma.conf.js" afterPath="$PROJECT_DIR$/config/karma.conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/e2e/runner.html" afterPath="$PROJECT_DIR$/test/e2e/runner.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/e2e/scenarios.js" afterPath="$PROJECT_DIR$/test/e2e/scenarios.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/web-server.js" afterPath="$PROJECT_DIR$/scripts/web-server.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="angular-fundamentals.iws" />
@@ -95,7 +31,7 @@
     <file path="$APPLICATION_HOME_DIR$/lib/webstorm.jar!/standardSchemas/xhtml1-frameset.xsd" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1370487270043" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/webstorm.jar!/standardSchemas/XMLSchema-instance.xsd" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1370487270043" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/webstorm.jar!/standardSchemas/catalog.xsd" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1370487270043" ignored="false" />
-    <file path="/Dummy.txt" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1372302962160" ignored="false" />
+    <file path="/Dummy.txt" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1374548371202" ignored="false" />
     <file path="/.gitignore" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1370489055230" ignored="false" />
     <file path="/.travis.yml" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1370489304781" ignored="false" />
     <file path="/app.css" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1371699140964" ignored="false" />
@@ -137,6 +73,7 @@
     <file path="/CalendarHelperSpec.js" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1372296035181" ignored="false" />
     <file path="/login.html" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1372297978548" ignored="false" />
     <file path="/ngFocus.js" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1372298024446" ignored="false" />
+    <file path="/eventThumbnailSpec.js" changelist="d3fb8b31-9543-4528-b3b6-60c9255a14fb" time="1372377720729" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,16 +93,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="63" selection-start="1532" selection-end="1532" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="editEvent.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="editEvent.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/partials/editEvent.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -174,46 +102,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="focus.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/directives/focus.js">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="3" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/partials/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="6" selection-start="852" selection-end="852" vertical-scroll-proportion="-12.423077">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="runner.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/e2e/runner.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="calendarHelperSpec.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/unit/calendarHelperSpec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ngFocus.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/directives/ngFocus.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="46" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
+            <state line="31" column="69" selection-start="1301" selection-end="1301" vertical-scroll-proportion="-20.26923">
               <folding />
             </state>
           </provider>
@@ -238,14 +130,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/templates/EventDetails.html" />
-        <option value="$PROJECT_DIR$/app/templates/directives/datepicker.html" />
         <option value="$PROJECT_DIR$/app/templates/NewEvent.html" />
         <option value="$PROJECT_DIR$/app/templates/includes/scripts.js" />
         <option value="$PROJECT_DIR$/app/templates/includes/scripts.html" />
         <option value="$PROJECT_DIR$/app/templates/includes/styles.html" />
         <option value="$PROJECT_DIR$/app/templates/includes/loadAfter.html" />
-        <option value="$PROJECT_DIR$/config/karma.conf.js" />
         <option value="$PROJECT_DIR$/app/js/controllers/EventListController.js" />
         <option value="$PROJECT_DIR$/test/unit/EventListControllerSpec.js" />
         <option value="$PROJECT_DIR$/test/unit/CalendarHelperSpec.js" />
@@ -254,12 +143,17 @@
         <option value="$PROJECT_DIR$/app/js/directives/focus.js" />
         <option value="$PROJECT_DIR$/app/js/directives/ngFocus.js" />
         <option value="$PROJECT_DIR$/app/partials/login.html" />
+        <option value="$PROJECT_DIR$/test/unit/eventThumbnailSpec.js" />
+        <option value="$PROJECT_DIR$/app/js/directives/eventThumbnail.js" />
+        <option value="$PROJECT_DIR$/config/karma.conf.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1374" />
-    <option name="height" value="1040" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -287,6 +181,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -318,8 +213,18 @@
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="unit" />
+              <option name="myItemId" value="angular-fundamentals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-fundamentals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -333,13 +238,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -356,11 +264,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\app\workspaces\angular\angular-fundamentals\app\partials\directives" />
+      <recent name="C:\app\workspaces\angular\angular-fundamentals\test\lib" />
       <recent name="C:\app\workspaces\angular\angular-fundamentals\test\unit" />
       <recent name="C:\app\workspaces\angular\angular-fundamentals\test\e2e" />
       <recent name="C:\app\workspaces\angular\angular-fundamentals\app\data" />
-      <recent name="C:\app\workspaces\angular\angular-fundamentals\app" />
-      <recent name="C:\app\workspaces\angular\angular-fundamentals\app\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\app\workspaces\angular\angular-fundamentals\scripts" />
@@ -377,6 +285,13 @@
       <option name="filePath" />
       <option name="scope" value="ALL" />
       <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="CHROME" />
       <method />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$">
@@ -450,7 +365,11 @@
       <created>1371701052963</created>
       <updated>1371701052963</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Karma Testing">
+      <created>1372303034654</created>
+      <updated>1372303034654</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -474,17 +393,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1374" height="1040" extended-state="0" />
-    <editor active="false" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23348017" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290398" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23564065" sideWeight="0.6703418" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22552083" sideWeight="0.6273429" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996207" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22455752" sideWeight="0.9990715" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37265712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -538,7 +457,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating Custom Directives" />
+    <option name="LAST_COMMIT_MESSAGE" value="Karma Testing" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -559,6 +478,7 @@
     <MESSAGE value="Updated angular module references" />
     <MESSAGE value="Angular Routing" />
     <MESSAGE value="Creating Custom Directives" />
+    <MESSAGE value="Karma Testing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -566,52 +486,78 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/js/services/calendarHelper.js">
+    <entry file="file://$PROJECT_DIR$/app/js/directives/focus.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="3" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/directives/ngFocus.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="46" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="6" selection-start="852" selection-end="852" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/e2e/runner.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/test/lib/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/data/event/1.json">
+    <entry file="file://$PROJECT_DIR$/app/partials/directives/eventThumbnail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/directives/eventThumbnail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="22" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/durationsSpec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/data/event/2.json">
+    <entry file="file://$PROJECT_DIR$/test/unit/calendarHelperSpec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="3" selection-start="243" selection-end="243" vertical-scroll-proportion="0.28176796" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/userDataSpec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/data/event/4.json">
+    <entry file="file://$PROJECT_DIR$/test/unit/userResourceSpec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/data/event/3.json">
+    <entry file="file://$PROJECT_DIR$/test/unit/eventThumbnailSpec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="6" column="66" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/app.js">
+    <entry file="file://$PROJECT_DIR$/config/karma.conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="1527" selection-end="1527" vertical-scroll-proportion="0.0" />
+        <state line="11" column="26" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/directives/upvote.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="33" selection-start="122" selection-end="122" vertical-scroll-proportion="-1.3076923" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/eventList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/editEvent.html">
+    <entry file="file://$PROJECT_DIR$/app/partials/viewProfile.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -620,42 +566,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="63" selection-start="1532" selection-end="1532" vertical-scroll-proportion="0.0">
+        <state line="31" column="69" selection-start="1301" selection-end="1301" vertical-scroll-proportion="-20.26923">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/directives/focus.js">
+    <entry file="file://$PROJECT_DIR$/app/partials/editEvent.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="3" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/directives/ngFocus.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="46" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="6" selection-start="852" selection-end="852" vertical-scroll-proportion="-12.423077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/e2e/runner.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/calendarHelperSpec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
